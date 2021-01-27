@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,7 +12,15 @@
 		A2314DA425BBFAC9007962C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2314DA325BBFAC9007962C3 /* ViewController.swift */; };
 		A2314DA725BBFAC9007962C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2314DA525BBFAC9007962C3 /* Main.storyboard */; };
 		A2314DA925BBFACB007962C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2314DA825BBFACB007962C3 /* Assets.xcassets */; };
-		A2314DAC25BBFACB007962C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2314DAA25BBFACB007962C3 /* LaunchScreen.storyboard */; };
+		A2314DE225BC9300007962C3 /* SwiftTraveller in Frameworks */ = {isa = PBXBuildFile; productRef = A2314DE125BC9300007962C3 /* SwiftTraveller */; };
+		A2314DE625BD44ED007962C3 /* UIWindow+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2314DE525BD44ED007962C3 /* UIWindow+Extensions.swift */; };
+		A2314DE925BE87D2007962C3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2314DE825BE87D2007962C3 /* Login.storyboard */; };
+		A2314DED25BE8A72007962C3 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2314DEC25BE8A72007962C3 /* LaunchViewController.swift */; };
+		A2314E1A25C0095F007962C3 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2314E1925C0095F007962C3 /* SignupViewController.swift */; };
+		A2314E1D25C009AF007962C3 /* TravellerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2314E1C25C009AF007962C3 /* TravellerProtocol.swift */; };
+		A2314E2025C00B94007962C3 /* TravellerEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2314E1F25C00B94007962C3 /* TravellerEnums.swift */; };
+		A2314E2825C08212007962C3 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2314E2725C08212007962C3 /* DetailsViewController.swift */; };
+		A2CD99FA25C1277700422002 /* SwiftTraveller in Frameworks */ = {isa = PBXBuildFile; productRef = A2CD99F925C1277700422002 /* SwiftTraveller */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +30,14 @@
 		A2314DA325BBFAC9007962C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2314DA625BBFAC9007962C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2314DA825BBFACB007962C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A2314DAB25BBFACB007962C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2314DAD25BBFACB007962C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2314DE525BD44ED007962C3 /* UIWindow+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extensions.swift"; sourceTree = "<group>"; };
+		A2314DE825BE87D2007962C3 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A2314DEC25BE8A72007962C3 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		A2314E1925C0095F007962C3 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		A2314E1C25C009AF007962C3 /* TravellerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellerProtocol.swift; sourceTree = "<group>"; };
+		A2314E1F25C00B94007962C3 /* TravellerEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellerEnums.swift; sourceTree = "<group>"; };
+		A2314E2725C08212007962C3 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2CD99FA25C1277700422002 /* SwiftTraveller in Frameworks */,
+				A2314DE225BC9300007962C3 /* SwiftTraveller in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +58,7 @@
 			children = (
 				A2314D9E25BBFAC9007962C3 /* Traveller */,
 				A2314D9D25BBFAC9007962C3 /* Products */,
+				A2314DE025BC9300007962C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,60 @@
 		A2314D9E25BBFAC9007962C3 /* Traveller */ = {
 			isa = PBXGroup;
 			children = (
+				A2314E2A25C08F63007962C3 /* StoryBoards */,
+				A2314E2525C0103B007962C3 /* UIKit+Extensions */,
+				A2314E2425C01023007962C3 /* ViewControllers */,
+				A2314E2325C01010007962C3 /* TravellerComponents */,
 				A2314D9F25BBFAC9007962C3 /* AppDelegate.swift */,
 				A2314DA125BBFAC9007962C3 /* SceneDelegate.swift */,
-				A2314DA325BBFAC9007962C3 /* ViewController.swift */,
-				A2314DA525BBFAC9007962C3 /* Main.storyboard */,
 				A2314DA825BBFACB007962C3 /* Assets.xcassets */,
-				A2314DAA25BBFACB007962C3 /* LaunchScreen.storyboard */,
 				A2314DAD25BBFACB007962C3 /* Info.plist */,
 			);
 			path = Traveller;
+			sourceTree = "<group>";
+		};
+		A2314DE025BC9300007962C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2314E2325C01010007962C3 /* TravellerComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A2314E1F25C00B94007962C3 /* TravellerEnums.swift */,
+				A2314E1C25C009AF007962C3 /* TravellerProtocol.swift */,
+			);
+			path = TravellerComponents;
+			sourceTree = "<group>";
+		};
+		A2314E2425C01023007962C3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2314DA325BBFAC9007962C3 /* ViewController.swift */,
+				A2314DEC25BE8A72007962C3 /* LaunchViewController.swift */,
+				A2314E1925C0095F007962C3 /* SignupViewController.swift */,
+				A2314E2725C08212007962C3 /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A2314E2525C0103B007962C3 /* UIKit+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A2314DE525BD44ED007962C3 /* UIWindow+Extensions.swift */,
+			);
+			path = "UIKit+Extensions";
+			sourceTree = "<group>";
+		};
+		A2314E2A25C08F63007962C3 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				A2314DA525BBFAC9007962C3 /* Main.storyboard */,
+				A2314DE825BE87D2007962C3 /* Login.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +145,10 @@
 			dependencies = (
 			);
 			name = Traveller;
+			packageProductDependencies = (
+				A2314DE125BC9300007962C3 /* SwiftTraveller */,
+				A2CD99F925C1277700422002 /* SwiftTraveller */,
+			);
 			productName = Traveller;
 			productReference = A2314D9C25BBFAC9007962C3 /* Traveller.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +176,9 @@
 				Base,
 			);
 			mainGroup = A2314D9325BBFAC8007962C3;
+			packageReferences = (
+				A2CD99F825C1277700422002 /* XCRemoteSwiftPackageReference "SwiftTraveller" */,
+			);
 			productRefGroup = A2314D9D25BBFAC9007962C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,7 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2314DAC25BBFACB007962C3 /* LaunchScreen.storyboard in Resources */,
+				A2314DE925BE87D2007962C3 /* Login.storyboard in Resources */,
 				A2314DA925BBFACB007962C3 /* Assets.xcassets in Resources */,
 				A2314DA725BBFAC9007962C3 /* Main.storyboard in Resources */,
 			);
@@ -137,8 +206,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2314E2025C00B94007962C3 /* TravellerEnums.swift in Sources */,
+				A2314E1A25C0095F007962C3 /* SignupViewController.swift in Sources */,
+				A2314E2825C08212007962C3 /* DetailsViewController.swift in Sources */,
 				A2314DA425BBFAC9007962C3 /* ViewController.swift in Sources */,
+				A2314DED25BE8A72007962C3 /* LaunchViewController.swift in Sources */,
+				A2314DE625BD44ED007962C3 /* UIWindow+Extensions.swift in Sources */,
 				A2314DA025BBFAC9007962C3 /* AppDelegate.swift in Sources */,
+				A2314E1D25C009AF007962C3 /* TravellerProtocol.swift in Sources */,
 				A2314DA225BBFAC9007962C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,14 +227,6 @@
 				A2314DA625BBFAC9007962C3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A2314DAA25BBFACB007962C3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2314DAB25BBFACB007962C3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -339,6 +406,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2CD99F825C1277700422002 /* XCRemoteSwiftPackageReference "SwiftTraveller" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ChandanChilamkurthy/SwiftTraveller.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2314DE125BC9300007962C3 /* SwiftTraveller */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftTraveller;
+		};
+		A2CD99F925C1277700422002 /* SwiftTraveller */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2CD99F825C1277700422002 /* XCRemoteSwiftPackageReference "SwiftTraveller" */;
+			productName = SwiftTraveller;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2314D9425BBFAC8007962C3 /* Project object */;
 }
